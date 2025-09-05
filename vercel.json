@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "/ks/user/callback.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/ks/user/callback",
+            "dest": "/ks/user/callback.js"
+        }
+    ]
+}
